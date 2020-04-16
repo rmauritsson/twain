@@ -1,1 +1,64 @@
 @import "bootstrap/scss/bootstrap";
+@import "media_queries";
+@import url('https://fonts.googleapis.com/css?family=Nunito|Oswald:700&display=swap');
+
+/* Basic styling */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  height: 100vh;
+  min-width: 100vh;
+  background: #f1f1f1;
+}
+
+h1, h2, h3,h4,h5,h6{
+  font-family: 'Oswald', sans-serif;
+}
+
+a{
+  color: #FFD700;
+}
+.nav-item button{
+  margin: 0 .5rem;
+  border-radius: 0;
+}
+
+.bg-light, .btn-primary {
+  background: #FFD700 !important;
+  color: #fff !important;
+  border: 1px solid #FFD700 !important;
+}
+
+.frontBtn{
+  width: 200px;
+  margin: 10px;
+}
+/* pitch section styling */
+.pitch > .container h3{
+  margin: 4rem 0;
+}
+
+/* footer styling */
+.footer {
+  background-color: #202020;
+  color: #E0E0E0;
+  font-size: 13px;
+}
+
+.footer > .container {
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer a{
+  color: #E0E0E0;
+}
+.footer a:hover, a:focus{
+  color: #FFD700;
+}
